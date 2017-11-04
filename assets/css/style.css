@@ -47,7 +47,7 @@ h2 {
 }
 
 .nav-links {
-	margin-top: 20px;
+	margin-top: 1%;
 	float: right;
 	display: inline-block;
 }
@@ -187,5 +187,27 @@ h2 {
 /* end of responsive code */
 /***************************/
 /* start media queries */
+@media only screen and (max-width: 640px) {
+	.nav-logo {
+		width: 110px;
+		height: 40px;
+	}
+
+	.container {
+		width: 600px;
+	}
+
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+}
+
 
 /* end media queries */
